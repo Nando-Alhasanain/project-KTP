@@ -36,7 +36,7 @@ public class DataController {
         try {
             newdata = datactrl.findDataEntities().subList(0,record);
         }
-        catch (Exception e){result=e.getMessage();}
+        catch (Exception e){result=e.getMessage()   ;}
         model.addAttribute("goData", newdata);
         model.addAttribute("record", record);
         
