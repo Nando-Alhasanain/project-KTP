@@ -98,7 +98,7 @@ public class Dummy implements Serializable {
     public String toString() {
         return "ti.enterprize.project.ktp.coba.Dummy[ id=" + id + " ]";
     }
-
+    /*
     void getTanggal(String tanggal) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
@@ -106,5 +106,5 @@ public class Dummy implements Serializable {
     void getTanggal(Date date) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
+    */
 }
